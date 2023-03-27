@@ -104,7 +104,7 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 
 | Term                      | Definitie |
 | ------------------------- | --------- |
-| CSS                       |           |
+| CSS                       |  Een taal die gebruikt wordt om de opmaak van een website te bepalen. CSS staat voor Cascading Style Sheets.         |
 | selector                  |           |
 | declaratie                |           |
 | opmaak                    |           |
