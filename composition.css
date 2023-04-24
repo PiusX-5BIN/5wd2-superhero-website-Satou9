@@ -1,17 +1,59 @@
-
-
-header{
-    padding: 20px;
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.pin3{
+/*Header*/
+header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    background: url('hanae/Homura\ wallpaper.jpg');
+    background-size: cover;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+/*Header*/
+
+
+/*profile*/
+
+
+.pin3 {
     background-size: contain;
     width: max-content;
     margin: 0px;
 }
 
-#pin3{
+#pin3 {
     background-size: contain;
     background-repeat: no-repeat;
     /* width: max-content; */
@@ -20,26 +62,27 @@ header{
     object-fit: cover;
 }
 
-article.H{
+article.H {
     padding: 50px;
 
 
 }
-article.text{
+
+article.text {
     padding: 10px;
 }
-    
-.image2{
-    float: left;
+
+.image2 {
+
     padding: 20px;
 }
 
-img{
+img {
     border-style: none;
     vertical-align: middle;
 }
 
-#banner{
+#banner {
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -47,8 +90,25 @@ img{
 
 }
 
-article#qoute{
+article#qoute {
     padding: 100px;
 }
 
+section#profiel {
+    padding: 20px;
+}
 
+p {
+    padding: 20px;
+    float: right;
+}
+
+section.getuigenis {
+    padding: 5px;
+}
+
+section.comics {
+    height: auto;
+    padding: 30px;
+
+}
