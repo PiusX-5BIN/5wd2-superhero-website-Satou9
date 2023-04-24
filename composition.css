@@ -1,27 +1,12 @@
-html, body {
-    font-family: Verdana,sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-}
 
 
 header{
-    position:fixed;
-    top:0%; left:0%; right:0%;
-    background-color: #fff;
-    padding: 2rem 9%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-    box-shadow: 0 .5rem 1rem  ;
-
+    padding: 20px;
 
 }
 
 .pin3{
     background-size: contain;
-    background-repeat: no-repeat;
     width: max-content;
     margin: 0px;
 }
@@ -38,6 +23,10 @@ header{
 article.H{
     padding: 50px;
 
+
+}
+article.text{
+    padding: 10px;
 }
     
 .image2{
@@ -49,3 +38,17 @@ img{
     border-style: none;
     vertical-align: middle;
 }
+
+#banner{
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+article#qoute{
+    padding: 100px;
+}
+
+
