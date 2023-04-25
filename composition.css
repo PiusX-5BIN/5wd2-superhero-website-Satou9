@@ -93,20 +93,80 @@ nav a:hover {
 	height: auto;
 }
 
-.getuigenis{
-    background-color: #333;
-    padding: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+/*profiel ends*/
+
+/*testimonail*/
+
+.testimonails{
+    background-color: #fff;
+    padding: 20px;
 }
-.pin{
-    width: 50%;
-    height: auto;
-    flex: 1;
-    padding: 10px;
+.testimonail h2{
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
+.testimonail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.testimonail img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+.testimonail-info{
+    flex: 1;
+}
+
+
+
+
+
+
+
+.testimonials {
+	background-color: #fff;
+	padding: 50px;
+}
+
+.testimonials h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.testimonial img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.testimonial-info {
+	flex: 1;
+}
+
+.testimonial-info h3 {
+	font-size: 24px;
+	margin-bottom: 0,5rem;
+}
+
+.testimonial-info p {
+font-size: 18px;
+line-height: 1.5;
+}
 
 
 
