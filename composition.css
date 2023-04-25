@@ -4,111 +4,109 @@
     padding: 0;
 }
 
-/*Header*/
-header {
-    padding: 20px;
-    text-align: center;
-    position: relative;
+/* Navigation Bar Styles */
+nav {
+	background-color: #333;
+	height: 50px;
 }
 
-header nav {
-    margin-bottom: 20px;
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+nav a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
 }
 
-header nav ul li {
-    margin-right: 20px;
+nav a:hover {
+	text-decoration: underline;
 }
 
-header h1 {
-    margin-bottom: 20px;
+/* Header Banner Styles */
+.banner {
+	position: relative;
 }
 
-.hero-image {
-    background: url('hanae/Homura\ wallpaper.jpg');
-    background-size: cover;
-    height: 170px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
+.banner img {
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+	filter: brightness(50%);
 }
 
-/*Header*/
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+
+.banner-text h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.banner-text p {
+	font-size: 24px;
+}
 
 
 /*profile*/
-
-
-.pin3 {
-    background-size: contain;
-    width: max-content;
-    margin: 0px;
+.profile {
+	background-color: #eee;
+	padding: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
 }
 
-#pin3 {
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* width: max-content; */
-    margin: 0px;
-    background-position: 50% 50%;
-    object-fit: cover;
+.profile-info {
+	flex: 1;
+	margin-right: 50px;
 }
 
-article.H {
-    padding: 50px;
-
-
+.profile-info h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
 }
 
-article.text {
+.profile-info p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.profile-img {
+	flex: 1;
     padding: 10px;
 }
 
-.image2 {
-
-    padding: 20px;
+.profile-img img {
+	width: 80%;
+	height: auto;
 }
 
-img {
-    border-style: none;
-    vertical-align: middle;
-}
-
-#banner {
-    padding: 2rem 9%;
+.getuigenis{
+    background-color: #333;
+    padding: 50px;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    min-height: 100vh;
-
 }
-
-article#qoute {
-    padding: 100px;
-}
-
-section#profiel {
-    padding: 20px;
-}
-
-p {
-    padding: 20px;
-    float: right;
-}
-
-section.getuigenis {
-    padding: 5px;
-}
-
-section.comics {
+.pin{
+    width: 50%;
     height: auto;
-    padding: 30px;
-
+    flex: 1;
+    padding: 10px;
 }
+
+
+
+
