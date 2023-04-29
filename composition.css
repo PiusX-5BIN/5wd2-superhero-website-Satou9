@@ -169,4 +169,43 @@ line-height: 1.5;
 }
 
 
+/*Comics*/
+
+.comic{
+    background-color: #eee;
+    padding: 50px;
+}
+
+.comics h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.comic{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+
+}
+
+.comic img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    margin-right: 20px;
+    }
+    
+    .comic-info {
+    flex: 1;
+    }
+    
+    .comic-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    
+    .comic-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    }
 
