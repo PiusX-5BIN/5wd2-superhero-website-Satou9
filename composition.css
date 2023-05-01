@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -126,10 +126,6 @@ nav a:hover {
 
 
 
-
-
-
-
 .testimonials {
 	background-color: #fff;
 	padding: 50px;
@@ -208,4 +204,227 @@ line-height: 1.5;
     font-size: 18px;
     line-height: 1.5;
     }
+
+    /*.paralox {
+        background-image: url("hanae/nyanpasu_.gif");
+
+        height: 100%;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }*/
+
+
+
+
+
+      
+
+@media only screen and (max-width: 320px) {
+    /* Mobile Styles */
+
+/* Navigation Bar Styles */
+nav {
+	background-color: #333;
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+
+nav a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 10px 0;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Header Banner Styles */
+.banner {
+	position: relative;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	filter: brightness(50%);
+}
+
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+
+.banner-text h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.banner-text p {
+	font-size: 14px;
+}
+
+/*profile*/
+.profile {
+	background-color: #eee;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile-info {
+	flex: 1;
+	margin-bottom: 20px;
+}
+
+.profile-info h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.profile-info p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.profile-img {
+	flex: 1;
+}
+
+.profile-img img {
+	width: 80%;
+	height: auto;
+}
+
+/*testimonail*/
+
+.testimonails{
+    background-color: #fff;
+    padding: 20px;
+}
+.testimonail h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonail img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.testimonail-info{
+    flex: 1;
+}
+
+
+
+.testimonials {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.testimonials h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.testimonial img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.testimonial-info {
+	flex: 1;
+}
+
+.testimonial-info h3 {
+	font-size: 18px;
+	margin-bottom: 0.5rem;
+}
+
+.testimonial-info p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+/*Comics*/
+
+.comic{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.comics h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.comic{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+
+}
+
+.comic img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+    
+.comic-info {
+    flex: 1;
+}
+    
+.comic-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+    
+.comic-info p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+
+}
 
