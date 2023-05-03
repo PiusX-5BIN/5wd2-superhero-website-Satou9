@@ -1,8 +1,44 @@
+:root{
+    ---primary-color:#333;
+	---second-color:#fff;
+    ---third-color:#eee;
+    ---size50px: 3rem;
+    ---size-20px: 1,3rem;
+    ---size-10-px: 0,6rem;
 
-.text-center {
-    text-align: center;
+
+}
+.p-50 {
+    padding: var(---size50px);
+  }
+.p-10{
+    padding: var(---size-10-px);
+}
+.m-b-20{
+    margin-bottom: var(---size-20px);
 }
 
-.p-4 {
-    padding: 50px;
-  }
+.color-nav {
+	background-color: var(---primary-color);
+}
+
+.nav-a {
+	color: var(---second-color);
+}
+
+.banner-text-text{
+    color: var(---second-color);
+}
+
+.profile-color {
+	background-color: var(---third-color);
+}
+
+.testimonail-color{
+    background-color: var(---second-color);
+}
+
+
+.comic-color{
+    background-color: var(---third-color);
+}
