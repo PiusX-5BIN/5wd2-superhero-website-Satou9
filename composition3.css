@@ -1,0 +1,211 @@
+:root {
+    --size-50-procent: 50%;
+    --size-20-px: 20px;
+    --size-100-procent:100%;
+    --size-10-px: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-width: 200px;
+    height: var(--size-100-procent);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    height: 100vh;
+
+}
+
+.header-bg {
+    position: absolute;
+    top: var(--size-50-procent);
+    left: var(--size-50-procent);
+
+}
+
+.header-bg p {
+    margin: 0;
+}
+
+.header-bg h1 {
+    top: 20%;
+}
+
+
+.nav {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    width: var(--size-100-procent);
+}
+
+.nav+* {
+    margin-top: 40px;
+}
+
+.nav>li {
+    padding: var(--size-10-px) 50px;
+}
+
+/* Profile */
+
+#profile {
+    padding: var(--size-20-px);
+
+}
+
+.profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: var(--size-20-px);
+}
+
+.profile-img {
+    flex-basis: var(--size-100-procent);
+    margin-bottom: var(--size-20-px);
+    border-radius: var(--size-50-procent);
+}
+
+.profile-img img {
+    max-width: 200px;
+    height: auto;
+    border-radius: var(--size-50-procent);
+
+}
+
+.profile-info {
+    flex-basis: var(--size-100-procent);
+}
+
+.profile-info h3 {
+    margin-top: 0;
+}
+
+/*Testionial*/
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--size-20-px);
+    margin: 8px;
+}
+
+.testimonial {
+    padding: var(--size-20-px);
+}
+
+.testimonial img {
+    max-width: var(--size-100-procent);
+    height: auto;
+    border-radius: var(--size-50-procent);
+}
+
+.testimonial h4 {
+    margin-top: 0;
+}
+
+.testimonial p {
+    margin-bottom: 0;
+}
+
+/* Comics */
+
+.comic-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: var(--size-20-px);
+    margin: 8px;
+}
+
+.comic {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: var(--size-20-px);
+}
+
+.comic img {
+    max-width: var(--size-100-procent);
+    height: 80%;
+    margin-bottom: var(--size-10-px);
+}
+
+.comic h3 {
+    margin-top: 0;
+    margin-bottom: var(--size-10-px);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    .header-bg p {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header nav a {
+        font-size: var(--size-20-px);
+    }
+
+    /* Hero */
+    #hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+
+    #hero h1 {
+        font-size: 48px;
+    }
+
+    #hero p {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    /* Profile */
+    .profile-grid {
+        flex-wrap: nowrap;
+    }
+
+    .profile-img {
+        margin-right: 40px;
+    }
+
+    /* Testimonials */
+    .testimonial-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* Comics */
+    .comic-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        justify-content: center;
+    }
+
+    .comic {
+        flex-basis: calc(25% - 20px);
+        margin-right: var(--size-20-px);
+    }
+
+    .comic:nth-child(4n) {
+        margin-right: 0;
+    }
+}

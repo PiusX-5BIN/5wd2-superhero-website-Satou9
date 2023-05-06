@@ -1,0 +1,80 @@
+  /* Header */
+
+  header {
+      position: relative;
+      background-image: url('hanae/nyanpasu_.gif');
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+  }
+
+  .header-bg {
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+  }
+
+  .header-bg p {
+      font-size: 24px;
+  }
+
+
+  .nav {
+      list-style: none;
+      text-align: center;
+      text-decoration: none;
+      font-family: arial, sans-serif;
+      position: fixed;
+  }
+
+  .nav+* {
+      margin-top: 40px;
+  }
+
+  .nav>li {
+      display: inline-block;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  /* Profile */
+
+  #profile {
+      text-align: center;
+  }
+
+  .profile-grid {
+      align-items: center;
+
+  }
+
+
+  .profile-info h3 {
+      font-size: 24px;
+  }
+
+  .profile-info p {
+      font-size: 18px;
+  }
+
+  /*Testionial*/
+
+  .testimonial h4 {
+      font-size: 18px;
+  }
+
+  .testimonial p {
+      font-size: 16px;
+  }
+
+  /* Comics */
+
+  .comic h3 {
+      font-size: 20px;
+  }
+
+  .comic p {
+      font-size: 16px;
+  }

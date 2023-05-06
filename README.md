@@ -107,29 +107,34 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 | CSS                       |  Een taal die gebruikt wordt om de opmaak van een website te bepalen. CSS staat voor Cascading Style Sheets.         |
 | selector                  | De selector duidt aan welke HTML elementen opmaak zullen krijgen.         |
 | declaratie                |  De declaratie bestaat uit 1 of meerdere opmaakregels die tussen accolades worden geplaatst.         |
-| opmaak                    |           |
-| property                  |           |
-| property-value (waarde)   |           |
-| stylesheet                |           |
-| externe stylesheet        |           |
-| *.css                     |           |
-| selector                  |           |
-| conflicterende stijlregel |           |
-| hover                     |           |
-| hexadecimale kleurwaarde  |           |
-| rgb kleurwaarde           |           |
-| font                      |           |
-| generic family            |           |
-| font family               |           |
-| serif                     |           |
-| sans-serif                |           |
-| monospace                 |           |
-| box model                 |           |
-| padding                   |           |
-| border                    |           |
-| margin                    |           |
-| width                     |           |
-| height                    |           |
+| opmaak                    |verwijst naar de vormgeving en presentatie van een webpagina, inclusief kleur, lettertype, lay-out, afbeeldingen en andere visuele elementen.         |
+| property                  |  een stijleigenschap die kan worden toegepast op een HTML-element, zoals kleur, lettertype, afmetingen, enz.         |
+| property-value (waarde)   | een specifieke waarde die aan een stijleigenschap wordt toegewezen, zoals bijvoorbeeld een kleurwaarde of lettertype.          |
+| stylesheet                |een verzameling van stijleigenschappen die worden gebruikt om de opmaak van een webpagina te definiëren.          |
+| externe stylesheet        |een stylesheet dat is opgeslagen in een apart CSS-bestand en wordt gelinkt aan de HTML-pagina.         |
+| *.css                     |de bestandsextensie voor CSS-bestanden.         |
+| selector                  |een CSS-term die verwijst naar een HTML-element waarop de stijlregels worden toegepast. Een selector kan bijvoorbeeld verwijzen naar een specifieke HTML-tag, class of ID.         |
+| conflicterende stijlregel |wanneer twee of meer stijlregels worden toegepast op hetzelfde HTML-element en conflicteren met elkaar. In dit geval wordt bepaald welke stijlregel het meest specifiek is of de hoogste prioriteit heeft.      |
+| hover                     |een CSS-pseudo-klasse die wordt gebruikt om stijlen toe te passen wanneer de muis over een HTML-element wordt bewogen.         |
+| hexadecimale kleurwaarde  |een kleurwaarde die wordt uitgedrukt als een zescijferige combinatie van letters en cijfers, zoals bijvoorbeeld #FF0000 voor rood.        |
+| rgb kleurwaarde           |een kleurwaarde die wordt uitgedrukt als een combinatie van drie getallen tussen 0 en 255, die respectievelijk staan voor de rood-, groen- en blauwcomponenten van de kleur.          |
+| font                      | een CSS-stijleigenschap die wordt gebruikt om het lettertype van tekst op een webpagina te definiëren.          |
+| generic family            | een reeks van lettertypefamilies die worden gebruikt als fallback-opties wanneer het gewenste lettertype niet beschikbaar is. Voorbeelden van generieke families zijn serif, sans-serif en monospace.          |
+| font family               |  een specifieke reeks lettertypefamilies die worden gebruikt om tekst op een webpagina weer te geven. Meerdere lettertypefamilies kunnen worden opgegeven, gescheiden door een komma, om fallback-opties te bieden.         |
+| serif                     |  een lettertypefamilie die wordt gekenmerkt door de aanwezigheid van kleine extra lijntjes (serifs) aan het einde van elke letter.         |
+| sans-serif                |een lettertypefamilie die geen serifs bevat en daarom een strakkere, schone uitstraling heeft.       |
+| monospace                 | een lettertypefamilie waarbij elke letter evenveel ruimte inneemt, ongeacht de breedte van de letter zelf.          |
+| box model                 |   een concept in CSS dat elk HTML-element beschrijft als een rechthoekige box met inhoud, padding, rand en marge.         |
+| padding                   |De ruimte tussen de inhoud van een element en de rand van het element. Het wordt vaak gebruikt om de afstand tussen de inhoud en de randen van een element te vergroten of te verkleinen.
+        |
+| border                    |De rand van een element. Het wordt gebruikt om een visuele scheiding tussen de inhoud van een element en de rest van de pagina te creëren. De rand bestaat uit drie delen: de breedte, de stijl en de kleur.
+           |
+| margin                    | De ruimte tussen de rand van een element en de rand van het element ernaast. Het wordt gebruikt om de afstand tussen elementen te vergroten of te verkleinen en om witruimte te creëren.
+          |
+| width                     | De breedte van een element. Het kan worden ingesteld op een bepaalde waarde in pixels, procenten of een andere eenheid van lengte.
+          |
+| height                    |  De hoogte van een element. Het kan worden ingesteld op een bepaalde waarde in pixels, procenten of een andere eenheid van lengte.
+         |
 
 
 ## 📚 Bronnen

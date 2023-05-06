@@ -1,0 +1,31 @@
+:root{
+    --background-color-1:#eaeaea;
+    --background-color-2:#404040;
+    --color-white:#fff;
+    ---third-color: #eee;
+
+
+
+
+
+}
+
+.Background1{
+    background-color: var(--background-color-1);
+}
+.Background2{
+    background-color: var(--background-color-2);
+}
+
+.color-1{
+    color: var(--color-white);
+}
+
+.index{
+    z-index: 1;
+}
+
+.testimonial-color{
+    background-color: var(---third-color);
+}
+
