@@ -96,7 +96,7 @@ header {
 
 .testimonial-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-gap: var(--size-20-px);
     margin: 8px;
 }
@@ -106,7 +106,7 @@ header {
 }
 
 .testimonial img {
-    max-width: var(--size-100-procent);
+    max-width: 90%;
     height: auto;
     border-radius: var(--size-50-procent);
 }
